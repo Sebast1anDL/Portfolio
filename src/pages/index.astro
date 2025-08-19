@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import About from '../components/About.astro';
 ---
 
 <Layout>
@@ -12,11 +13,9 @@ import Header from '../components/Header.astro';
           Hola, soy <span class="text-blue-600">Sebastián Di Loreto</span>
         </h1>
         <p class="text-xl md:text-2xl text-gray-600 mb-8">
-          Desarrollador Frontend especializado en crear experiencias web increíbles
+          Desarrollador especializado en crear experiencias web 
         </p>
-        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
-          Ver mis proyectos
-        </button>
+        <About />
       </div>
     </section>
   </main>
